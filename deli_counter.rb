@@ -5,6 +5,9 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    puts "The line is currently: 1. #{katz_deli[0]} 2. #{katz_deli[1]} 3. #{katz_deli[2]}"
-  end
+    counter = "The line is currently:"
+    katz_deli.each_with_index do |value, index|
+      counter += " #{index.to_i+1}. #{value}"
+    end
+  puts "#{counter}"
 end
