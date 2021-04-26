@@ -10,5 +10,5 @@ def line(katz_deli)
       counter += " #{index.to_i+1}. #{value}"
     end
   puts "#{counter}"
-end
+  end
 end
