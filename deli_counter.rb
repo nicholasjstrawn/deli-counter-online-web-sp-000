@@ -11,3 +11,4 @@ def line(katz_deli)
     end
   puts "#{counter}"
 end
+end
